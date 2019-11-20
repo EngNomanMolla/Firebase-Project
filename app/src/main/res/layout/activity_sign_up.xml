@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:gravity="center"
+    android:background="@drawable/singup_backround"
+    tools:context=".SignUp">
+     <LinearLayout
+         android:gravity="center"
+         android:orientation="vertical"
+         android:layout_weight="3"
+         android:layout_width="match_parent"
+         android:layout_height="0dp">
+          <TextView
+              android:layout_marginBottom="40dp"
+              android:fontFamily="sans-serif"
+              android:textColor="#fff"
+              android:textSize="35dp"
+              android:text="Sing Up"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+          <EditText
+              android:id="@+id/emailId"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:gravity="center"
+              android:hint="Enter your email"
+              android:background="@drawable/edit_text"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:layout_marginBottom="10dp"
+              />
+          <EditText
+              android:id="@+id/passwordId"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:gravity="center"
+              android:inputType="numberPassword"
+              android:hint="Enter your password"
+              android:background="@drawable/edit_text"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              />
+          <TextView
+              android:id="@+id/TextViewId1"
+              android:layout_marginTop="4dp"
+              android:textColor="#ffff"
+              android:textSize="20sp"
+              android:text="Have a account?SignIn"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+     </LinearLayout>
+     <LinearLayout
+         android:gravity="center_horizontal"
+         android:layout_weight="1"
+         android:layout_width="match_parent"
+         android:layout_height="0dp">
+          <Button
+              android:id="@+id/EnterSignUpButtonId"
+              android:layout_marginTop="5dp"
+              android:text="Sing Up"
+              android:background="@drawable/color"
+              android:layout_width="100dp"
+              android:layout_height="wrap_content" />
+
+     </LinearLayout>
+
+<LinearLayout
+    android:gravity="center"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+     <ProgressBar
+         android:visibility="gone"
+         android:id="@+id/Id"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+</LinearLayout>
+
+
+</LinearLayout>

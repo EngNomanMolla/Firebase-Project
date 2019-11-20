@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ApplicationDemo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Company</string>
+    <string name="nav_header_subtitle">For good work</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="about_noman">I am studing of Barguna Polytechnic Institite of Computer Technology.I am come from Patharghata.\nI have Exprince on Java Programming Language and also working in android apps development.\n Facebook:https://www.facebook.com/mdnoman.molla.18</string>
+    <string name="about_saad">I am studing of Barguna Polytechnic Institite of Computer Technology.I am come from Gaibandha.\nI have Exprince on Web Developement and also working in Graphics Design.\n Facebook:https://www.facebook.com/mdsaad.ahmed.54</string>
+    <string name="about_ashik">I am studing of Barguna Polytechnic Institite of Computer Technology.I am come from Barishal.\nI have Exprince on Java Programming Language.\n Facebook:https://www.facebook.com/ashiqurrahman.tamim</string>
+    <string name="tab_text_1">Noman</string>
+    <string name="tab_text_2">Saad</string>
+    <string name="tab_text_3">Ashik</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
